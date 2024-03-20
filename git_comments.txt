@@ -1,0 +1,47 @@
+gti init
+
+git add
+git status
+git commit -m "commit message need to give here"
+
+git log
+git diff
+
+git push
+
+git clone https://url
+git remote -v
+
+eg,	git remote add <remote_name> <remote_url>
+
+	remote name - origin
+	remote url  - It's the result of the url that we got in git remote -v
+
+FOr that need to configure our github account with our machine
+
+	. First create ssh keygen 
+	. Again going to /home/ubuntu/.ssh -> there id_rsa.pub
+	. Copy the public key and paste in gitHub -> setting -> SSH and GPG keys -> There paste the pub key in creating new key
+
+###	
+####
+###Branches
+####
+###
+	git branch [name for new branch]
+	git checkout -b [New Branch Name]   ->> Switch to new branch
+
+To check which branch we are in now
+
+	git branch
+	
+	
+[ git merge, git rebase or git cherry-pick ]
+
+git log [branch name]
+
+	git cherry-pick  ->  . using log cmd pick the needed commited log -> and paste it using after cherry-pick
+			     . Then It's mergid that commit in master 
+
+
+	
